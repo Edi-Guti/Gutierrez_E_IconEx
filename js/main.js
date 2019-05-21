@@ -3,12 +3,13 @@
 	console.log('fired!');
 
 	// select elements with JavaScript
-	
+
 	// setting up a variable using the let keyword,
 	// and using a CSS slector to find the element we want to use.
-	
-	//;et stores the reference to element as a variable (in memory)
+
+	//;let stores the reference to element as a variable (in memory)
 	let the svgGraphic = document.querySelector("#badgeSVG");
+			mainHeadline = document.querySelector("main-headline");
 
 	// functions are reusable pieces of code
 	// that you can run any time
@@ -20,4 +21,5 @@
 
 	svgGraphic.addEventListener("click", logMyId);
 
+	mainHeadline.textContent = "Now you're something else!";
 })();
