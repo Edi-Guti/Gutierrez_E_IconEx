@@ -79,3 +79,11 @@ body { font-size: 16; }
 .st0:hover { opacity: 1; fill: #FFFFFF; }
 
 #badge:hover .
+
+/* THESE ARE DYNAMIC */
+
+.selected { 
+	color: blue !impotant; 
+	text-transform: uppercase;
+	font-style: italic;
+}
